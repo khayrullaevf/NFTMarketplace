@@ -75,9 +75,216 @@ body {
   line-height: 120%;
   border: 2px solid #d6ef0e;
 }
-.navbar-contact:hover{
+.navbar-contact:hover {
   border: 2px solid #d6ef0e;
   background-color: var(--white-main-white);
-  color:#d6ef0e;
+  color: #d6ef0e;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 544px;
+  width: 100%;
+}
+.hero-title {
+  color: var(--white-white-stich, #fffffd);
+  font-family: "Canela";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
 
+}
+.hero-title span {
+  color: #d6ef0e;
+  font-family: "Canela";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+.hero-subtitle {
+  color: var(--white-white-stich, #fffffd);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.hero-buttons {
+  display: flex;
+  column-gap: 36px;
+}
+
+.hero-explore__now {
+  display: flex;
+  height: 52px;
+  padding: 12px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #d6ef0e;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  border: 2px solid #d6ef0e;
+}
+.hero-learn__more {
+  display: flex;
+  height: 52px;
+  padding: 12px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: transparent;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  border: 2px solid transparent;
+}
+.hero-learn__more:hover{
+  display: flex;
+  height: 52px;
+  padding: 12px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #d6ef0e;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  border: 2px solid #d6ef0e;
+  transition: 0.5s;
+}
+.hero-explore__now:hover{
+  border: 2px solid #d6ef0e;
+  color: #d6ef0e;
+  background-color:var(--white-main-white) ;
+  transition: 0.5s;
+}
+.hero-numbers {
+  display: flex;
+  margin-top: 72px;
+  column-gap: 94px;
+}
+.hero-numbers__box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding-right: 28px;
+  border-right: 1px solid #d6ef0e;
+}
+.hero-numbers__box-3 {
+  padding-right: 28px;
+  border-right: 1px solid transparent;
+}
+.hero-numbers__count {
+  color: #d6ef0e;
+  font-family: "Canela";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+.hero-numbers__count span {
+  color: var(--white-main-white);
+  font-family: "Canela";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+.hero-numbers__title {
+  color: var(--white-white-stich, #fffffd);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.hero-bg {
+  display: flex;
+  flex-direction: column;
+}
+.hero-bid {
+  border-radius: 16px;
+  border-top: 1px solid #d6ef0e;
+  background: var(--background-background-4, #131e3a);
+  box-shadow: 0px 9px 50px 0px rgba(23, 36, 65, 0.04);
+  display: flex;
+  width: 304px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 24px;
+  position: relative;
+  left: 270px;
+  bottom: 80px;
+}
+.hero-bid__info {
+  display: flex;
+  column-gap: 105px;
+
+}
+.hero-bid__box{
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.hero-bid__title {
+  color: #d6ef0e;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.hero-bid__subtitle {
+  color: var(--white-white-stich, #fffffd);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.hero-bid__button {
+  display: flex;
+  height: 52px;
+  padding: 12px 40px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid #d6ef0e;
+  color: #d6ef0e;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; 
+  background-color: transparent;
+}
+.hero-bid__button:hover{
+  background-color: #d6ef0e;
+  color: var(--white-main-white);
+  transition: 0.5s;
 }
