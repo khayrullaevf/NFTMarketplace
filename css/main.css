@@ -99,7 +99,6 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 120%;
-
 }
 .hero-title span {
   color: #d6ef0e;
@@ -156,7 +155,7 @@ body {
   line-height: 120%;
   border: 2px solid transparent;
 }
-.hero-learn__more:hover{
+.hero-learn__more:hover {
   display: flex;
   height: 52px;
   padding: 12px 40px;
@@ -173,10 +172,10 @@ body {
   border: 2px solid #d6ef0e;
   transition: 0.5s;
 }
-.hero-explore__now:hover{
+.hero-explore__now:hover {
   border: 2px solid #d6ef0e;
   color: #d6ef0e;
-  background-color:var(--white-main-white) ;
+  background-color: var(--white-main-white);
   transition: 0.5s;
 }
 .hero-numbers {
@@ -242,9 +241,8 @@ body {
 .hero-bid__info {
   display: flex;
   column-gap: 105px;
-
 }
-.hero-bid__box{
+.hero-bid__box {
   display: flex;
   flex-direction: column;
   row-gap: 8px;
@@ -276,15 +274,156 @@ body {
   border-radius: 8px;
   border: 1px solid #d6ef0e;
   color: #d6ef0e;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  background-color: transparent;
+}
+.hero-bid__button:hover {
+  background-color: #d6ef0e;
+  color: var(--white-main-white);
+  transition: 0.5s;
+}
+
+.arts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 64px;
+  padding-bottom: 92px;
+  padding-top: 92px;
+}
+.arts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.arts-title {
+  color: var(--white-white-stich, #fffffd);
+  font-family: "Canela";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  max-width: 506px;
+  width: 100%;
+}
+.arts-title span {
+  color: #d6ef0e;
+  font-family: "Canela";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.arts-see__all {
+  display: flex;
+  height: 52px;
+  padding: 12px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #d6ef0e;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.arts-cards {
+  display: flex;
+  column-gap: 30px;
+}
+
+.arts-card {
+  border-radius: 28px;
+  border-top: 1px solid #d6ef0e;
+  background: var(--background-background-4, #131e3a);
+  display: flex;
+  width: 410px;
+  padding: 20px;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center;
+  gap: 24px; */
+}
+.arts-card__img {
+  width: 370px;
+  height: 340px;
+}
+.arts-card__text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.arts-card__title {
+  color: var(--white-white-stich, #fffffd);
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.arts-card__subtitle {
+  display: flex;
+  width: 93px;
+  column-gap: 4px;
+  color: var(--white-white-stich, #fffffd);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.arts-card__footer {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.arts-card__footer-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+.arts-card__footer-title {
+  color: var(--white-dissable, #838382);
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.arts-card__footer-time {
+  display: flex;
+  column-gap: 12px;
+}
+.arts-card__footer-number {
+  color: var(--white-white-stich, #fffffd);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.arts-card__footer-button {
+  display: flex;
+  height: 48px;
+  padding: 12px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #d6ef0e;
+  color: #d6ef0e;
+  background-color: #131e3a;
   font-family: 'Inter';
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 120%; 
-  background-color: transparent;
-}
-.hero-bid__button:hover{
-  background-color: #d6ef0e;
-  color: var(--white-main-white);
-  transition: 0.5s;
 }
