@@ -537,3 +537,172 @@ body {
   position: relative;
   right: 84px;
 }
+
+.popular {
+  display: flex;
+  flex-direction: column;
+  padding-top: 92px;
+  padding-bottom: 92px;
+  row-gap: 64px;
+}
+.popular-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.popular-title {
+  color: var(--white-white-stich, #fffffd);
+  font-family: "Canela";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  max-width: 307px;
+  width: 100%;
+}
+
+.popular-title span {
+  color: #d6ef0e;
+}
+.popular-see__all {
+  display: flex;
+  height: 52px;
+  padding: 12px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #d6ef0e;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  border: 2px solid transparent;
+}
+.popular-cards {
+  display: grid;
+  width: 100%;
+  height: 652px;
+  grid-template-columns: 4fr 6fr 5fr;
+  gap: 30px;
+  grid-template-areas:
+  'card-1 card-2 card-3' 
+  'card-4 card-5 card-3' 
+  ;
+}
+.popular-card__1,
+.popular-card__2,
+.popular-card__3,
+.popular-card__4,
+.popular-card__5 {
+  border-radius: 16px;
+  background: linear-gradient(
+      2deg,
+      rgba(19, 30, 58, 0.92) 0%,
+      rgba(19, 30, 58, 0) 94.62%
+    ),
+    url(<path-to-image>),
+    lightgray -6.054px -102.754px / 109.512% 227.714% no-repeat;
+  padding: 24px;
+  display: flex;
+  align-items: flex-end;
+}
+.popular-card__1 {
+  background: linear-gradient(
+      2deg,
+      rgba(19, 30, 58, 0.92) 0%,
+      rgba(19, 30, 58, 0) 94.62%
+    ),
+    url("../imgs/popular-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: card-1;
+
+ 
+}
+.popular-card__2 {
+  background: linear-gradient(
+      2deg,
+      rgba(19, 30, 58, 0.92) 0%,
+      rgba(19, 30, 58, 0) 94.62%
+    ),
+    url("../imgs/popular-2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: card-2;
+
+
+}
+.popular-card__3 {
+  background: linear-gradient(
+      2deg,
+      rgba(19, 30, 58, 0.92) 0%,
+      rgba(19, 30, 58, 0) 94.62%
+    ),
+    url("../imgs/popular-3.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    grid-area: card-3;
+
+  
+}
+.popular-card__4 {
+  background: linear-gradient(
+      2deg,
+      rgba(19, 30, 58, 0.92) 0%,
+      rgba(19, 30, 58, 0) 94.62%
+    ),
+    url("../imgs/popluar-4.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: card-4;
+
+  
+}
+.popular-card__5 {
+  background: linear-gradient(
+      2deg,
+      rgba(19, 30, 58, 0.92) 0%,
+      rgba(19, 30, 58, 0) 94.62%
+    ),
+    url("../imgs/popular-5.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+   grid-area: card-5;
+
+
+}
+
+.popular-card__footer {
+  display: flex;
+  column-gap: 12px;
+}
+.popular-card__user-img {
+  width: 48px;
+  height: 48px;
+}
+
+.popular-card__user-info {
+  display: flex;
+  flex-direction: column;
+  rotate: 4px;
+}
+.popular-card__title {
+  color: var(--white-white-stich, #fffffd);
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.popular-card__subtitle {
+  color: var(--white-white-stich, #fffffd);
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; 
+}
