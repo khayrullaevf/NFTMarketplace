@@ -453,6 +453,13 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
+  transition: all 0.4s linear;
+  border: 2px solid #d6ef0e;
+}
+.arts-see-all:hover {
+  background-color: var(--white-main-white);
+  border: 2px solid #d6ef0e;
+  color: #d6ef0e;
 }
 
 .arts-cards {
